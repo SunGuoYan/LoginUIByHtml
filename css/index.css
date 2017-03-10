@@ -1,0 +1,177 @@
+a, address, b, big, blockquote, body, center,
+cite, code, dd, del, div, dl, dt, em, fieldset,
+font, form, h1, h2, h3, h4, h5, h6, html, i,
+iframe, img, ins, label, legend, li, ol, p, pre,
+small, span, strong, u, ul, var
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../images/background.jpg") no-repeat;
+    /*background-size: cover;*/
+    width: 100%;
+    height: 100%;
+}
+#bg{
+
+    /*text-align: center;*/
+    width: 100%;
+    height: 100%;
+}
+
+#bg-white{
+    margin: 100px auto 0;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -10px 10px 10px black;
+    /*text-shadow: -10px -10px 10px green;*/
+}
+#header{
+    /*background-color: yellow;*/
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0px 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+#content{
+    /*background-color: orange;*/
+}
+
+#content-input1{
+    /*background-color: cyan;*/
+    margin: 10px;
+    height: 40px;
+    position: relative;
+}
+#content-input1 img{
+    margin-left: 3px;
+    margin-top: 7.5px;
+    display: inline-block;
+    /*width: 30px;*/
+    /*height: 30px;*/
+    position: absolute;
+    float: left;
+}
+#content-input1 input{
+    outline: none;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-left: 35px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+}
+#content-input1 input:focus{
+    outline: orange;
+}
+
+
+#content-input2{
+    /*background-color: yellow;*/
+    margin: 10px;
+    height: 40px;
+    position: relative;
+}
+#content-input2 img{
+    margin-left: 3px;
+    margin-top: 7.5px;
+    position: absolute;
+    float: left;
+}
+#content-input2 input{
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+#content-setting{
+    /*background-color: cyan;*/
+    margin: 10px;
+    font-size: 10px;
+
+    height: 30px;
+    line-height: 30px;
+
+    /*position: relative;*/
+}
+
+.left{
+    /*position: absolute;*/
+    display: inline-block;
+    float: left;
+}
+.right{
+    float: right;
+    color: red;
+    text-decoration: none;
+}
+
+#content-loginBtn{
+    margin: 10px;
+}
+ button{
+    background-color: red;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#content-register{
+    /*background-color: cyan;*/
+    margin: 10px;
+    font-size: 5px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#content-register a{
+    font-size: 15px;
+    color: red;
+    text-decoration: none;
+
+}
+
+.footer{
+    margin: 10px;
+    /*background-color: orchid;*/
+    height: 50px;
+    text-align: center;
+    line-height:50px;
+    text-align: center;
+}
+.footer-bg{
+    display: inline-block;
+}
+.footer-text{
+
+    display: inline-block;
+    float: left;
+}
+.footer-images{
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    height: 50px;
+    line-height:50px;
+}
+.footer-images img{
+    width: 30px;
+    height: 30px;
+}
+
+
